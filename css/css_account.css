@@ -1,0 +1,71 @@
+body {
+font-family:"Lucida Grande",Geneva,Arial,Verdana,sans-serif;
+font-size:90%;
+padding:10px 12px;
+}
+body, p, a, label {
+font-size:12px;
+}
+#header {
+background-color:#FFFFFF;
+border-bottom:1px solid #CCCCCC;
+height:50px;
+width:100%;
+}
+#site_name {
+float:left;
+}
+#user_menu {
+float:right;
+padding:15px 20px;
+}
+#content {
+padding:20px;
+}
+h2 {
+font-size:140%;
+font-weight:bold;
+margin-bottom:10px;
+}
+.form {
+margin-top:20px;
+}
+fieldset {
+border-color:-moz-use-text-color -moz-use-text-color #DDDDDD;
+border-style:none none solid;
+border-width:medium medium 1px;
+padding:10px 0;
+}
+fieldset.over {
+background-color:#dedede;
+}
+fieldset label{
+display:block;
+float:left;
+font-weight:bold;
+margin:3px 10px 0 0;
+text-align:right;
+width:200px;
+}
+fieldset p.error{
+  margin:10px 0 10px 210px;
+  color:#F00;
+}
+fieldset p.mensaje{
+  margin:10px 110px;
+}
+#operations {
+margin:20px 0 0 120px;
+}
+#operations p {
+margin:10px 90px;
+}
+#operations input {
+font-size:130%;
+padding:0.2em 1em;
+}
+#footer {
+background-color:#DDDDDD;
+height:70px;
+width:100%;
+}

@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************** MENU *****************************/
+
+#index-maquetar-06  .menu{
+	width:788px;
+	height:79px;
+	display:inline;
+	float:left;
+	margin:0 0 20PX 0;
+	padding:0;
+	background-position: bottom left;
+	background-image: url(../img/fondo_menu.jpg);
+	font-family: "Times New Roman", Times, serif;
+}
+#index-maquetar-06  .menu a{
+	position:absolute;
+	width:188px;
+	/* height:54px; */
+	z-index:2;
+	font-size:22px;
+	text-decoration:none;
+	color:#747474;
+	text-align: center;
+	margin:-5px 0 0 0;
+}
+#index-maquetar-06  .menu a:hover{
+color: #3399CC;;}
+#index-maquetar-06  .menu a span{
+	margin-top:18px;
+	width: 188px;
+	display: inline;
+	float: left;
+}
+#index-maquetar-06  .menu_activado{
+position:absolute;
+	width:169px;
+	height:54px;
+	z-index:2;
+	font-size:22px;
+	text-decoration:none;
+	text-align: center;
+	background-image: url(../img/bot_menu.gif);
+	background-repeat:no-repeat;}
+#index-maquetar-06  .menu_activado span{
+	margin-top:18px;
+	width: 169px;
+	display: inline;
+	float: left;
+	color:#FFFFFF;
+}
+#bot_return a.bot_return  {
+  background-image:url("../img/fodo_bot_return.gif");
+  display:inline;
+  float:left;
+  height:53px;
+  margin:-10px 0 0 560px;
+  padding:0;
+  width:149px;
+}
+/********************************************************/
+
+#left {
+	width:230px;
+	/* height:579px; */
+	display: inline;
+	float: left;
+	margin: 13px 0 0 0;
+	padding: 0;
+	text-align: left;
+}
+#left .cuadros{
+background:url("../img/cuadro-body.jpg") repeat-y scroll left bottom transparent;
+display:inline;
+float:left;
+margin:20px 0 0 32px;
+padding:0;
+width:148px;
+}
+#left .cuadros .footer{
+background:url("../img/cuadro-footer.jpg") no-repeat scroll left bottom transparent;
+display:inline;
+float:left;
+min-height:164px;
+padding:0;
+width:148px;
+}
+#left .cuadros h1{
+	width:148px;
+	height:49px;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color:#FFFFFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:17px;
+	font-weight:normal;
+}
+#left .cuadros h1 span{
+	display:inline;
+	float: left;
+	margin:8px 0 0 5px;
+}
+
+#left .fondo01{background:url("../img/cuadro-categoria.jpg") no-repeat scroll 0 0 transparent;}
+#left .fondo02{background:url("../img/cuadro-color.jpg") no-repeat scroll 0 0 transparent;}
+#left .fondo03{background:url("../img/cuadro-logotipo.jpg") no-repeat scroll 0 0 transparent;}
+	
+#left .cuadros ul{
+  display:inline;
+  float:left;
+  font-size:12px;
+  height:auto;
+  list-style:none outside none;
+  margin:10px 0 0 25px;
+  padding:0;
+  width:109px;
+}
+#left .cuadros ul li{
+  display:inline;
+  float:left;
+  margin:0 0 15px;
+  width:109px;
+}
+#left .cuadros ul li.activo span{
+  background:url(../img/ico_checked.gif) no-repeat scroll 50% 50% transparent;
+  height:13px;
+  width:13px;
+  margin:0 5px 0 0;
+}
+#left .cuadros ul li span{
+	display:inline;
+	float:left;
+	margin:1px 5px 0 0;
+	width:10px;
+	height:10px;
+	border:#c8c8c8 1px solid;
+	background-color: #FFFFFF;
+}
+#left .cuadros ul li a{
+	text-decoration:none;
+  color:#000;
+  font-size: 10px;
+}
+#left .cuadros ul li.activo a, #left .cuadros ul li a:hover{
+	color:#22469D;
+  font-weight:bolder;
+  text-transform:capitalize;
+}
+#left .cuadros ul .iconos{
+	display:inline;
+	float:left;
+	margin:0 8px 8px 0;
+	width:26px;
+	height:26px;
+}
+#left .cuadros ul .iconos a{
+	display:inline;
+	float:left;
+	margin:0;
+	width:26px;
+	height:26px;
+	border:none
+}
+#left .cuadros ul .iconos a:hover{
+	filter: alpha(opacity=35);
+	-moz-opacity: .35;
+	opacity: .35; 
+	-khtml-opacity: 0.3;
+}
+#left .cuadros ul .iconos img{
+border:none;}
+#left .logos{
+	display:inline;
+	float:left;
+	margin:0 0 0 20px;
+}
+
+/*********************************************/
+#index-maquetar-06 {
+	width:798px;
+	height:auto;
+	display: inline;
+	float: left;
+	margin: 0;
+}
+#index-maquetar-06 .renglon_lapcero{
+	width:788px;
+	/* height:149px; */
+	display:inline;
+	float:left;
+	margin:0 0 29px 0;
+	padding:0;
+}
+#index-maquetar-06 .renglon_lapcero .img{
+  background-color:#FFFFFF;
+  border:1px solid #DEDEDE;
+  display:inline;
+  float:left;
+  margin:0;
+  padding:0;
+  text-align:center;
+  vertical-align:middle;
+  width:613px;
+}
+#index-maquetar-06 .renglon_lapcero .img .top{
+  margin-left:300px;
+  /* margin-top:60px; */
+  margin-top:55px;
+  position:absolute;
+  width:150px;
+}
+#index-maquetar-06 .codec{
+	width:115px;
+	height:23px;
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+	background-image: url(../img/fondo_codigo.jpg);
+	text-align:center;
+	font-size:10px;
+	color:#535353;
+	font-weight: bold;
+}
+#index-maquetar-06 .codec span{
+	margin:5px 0 0 18px;
+	display: inline;
+	float: left;
+	width: 98px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+#index-maquetar-06 .ico_poner_quitar{
+  float:left;
+}
+#index-maquetar-06 .ico_poner_quitar img{
+	display: inline;
+	float: left;
+	width: 85px;
+	height:78px;
+	border: none;
+}
+#index-maquetar-06 .ico_poner_quitar a{
+  float:left;
+  height:78px;
+  margin:15px 0 0 24px;
+  width:85px;
+}
+#index-maquetar-06 .ico_poner_quitar a.add_cart_img{
+  background:url(../img/ico_anadir.gif) no-repeat scroll 50% 50% transparent;
+}
+#index-maquetar-06 .ico_poner_quitar a.del_cart_img{
+  background:url(../img/ico_quitar.gif) no-repeat scroll 50% 50% transparent;
+}
+#index-maquetar-06 .ico_poner_quitar a:hover{
+	filter: alpha(opacity=35);
+	-moz-opacity: .35;
+	opacity: .35; 
+	-khtml-opacity: 0.3;
+}
+#index-maquetar-06 p{
+	font-size:12px;
+	margin: 5px 100px 10px 62px;
+}
+#index-maquetar-06 h1{
+	font-size:20px;
+	margin: 75px 0 20px 0;
+	color:#2e93c2;
+	font-weight: normal;
+	width:772px;
+	height:47px;
+	display: inline;
+	float:left;
+	background-image: url(../img/fodo_titu.gif);
+	background-repeat: no-repeat;
+}
+#index-maquetar-06 h1 span{
+	margin-left:61px;
+}
+#index-maquetar-06 .imagen_texto{
+	margin:0 25px 10px 20px;
+	float:right;
+	display:inline;
+	width:305px;
+	height:270px;
+	text-align: left;
+	padding: 0;
+}
+#index-maquetar-06 .imagen_texto img{
+	margin:0;
+	position:absolute;
+	z-index:3;
+	top: 220px;
+}
+#index-maquetar-06 form{
+	display:inline;
+	float:left;
+	width: 350px;
+	margin: 0 0 0 62px;
+}
+
+#index-maquetar-06 form .etiqueta{
+	display:inline;
+	float: left;
+	width:300px;
+	height:20px;
+	margin:8px 0 0 0;
+	color:#6585b4;
+	font-size:12px;
+}
+#index-maquetar-06 form input{
+	display:inline;
+	float: left;
+	width:300px;
+	height:20px;
+	margin:0 0 5px 0;
+	color: #333333;
+	font-size:11px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+}
+#index-maquetar-06 form .comentario{
+	display:inline;
+	float: left;
+	width:300px;
+	height:65px;
+	margin:0 0 5px 0;
+	color: #333333;
+	font-size:11px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+}
+#index-maquetar-06 form .boton{
+	display:inline;
+	float: left;
+	width:70px;
+	height:28px;
+	margin:0 0 5px 0;
+	color: #49a1ca;
+	font-size:12px;
+	border:none;
+	background-image: url(../img/fondo_boton.gif);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+#index-maquetar-06 form .boton:hover{
+color: #999999; 
+cursor:pointer;
+}
+
+.titulo_tabla{
+ /* background:url("../img/fondo_tabla_top.gif") no-repeat scroll 50% 5px transparent;*/
+ background-color:#CCCCCC;
+  border-spacing:0 5px;
+  color:#990000;
+  float:left;
+}
+.titulo_tabla tr{
+  margin:5px 0;
+}
+.titulo_tabla tr.alt td{background-color:#DFE3FD;}
+.titulo_tabla tr.over td{background-color:#BEC1D7;}
+.titulo_tabla th{
+  height:45px;
+  text-align:center;
+  vertical-align:middle;
+}
+.titulo_tabla td{
+  height:45px;
+  text-align:center;
+  vertical-align:middle;
+  background-color:#E7E7E7;
+  color:#737373;
+}
+.titulo_tabla td input{
+  text-align:center;
+}
+.div_boton{
+	display:inline;
+	float:left;
+	width:98px;
+	height:31px;
+	background-image:url(../img/icon_borrar.gif);
+	margin:7px 0 0 15px;
+	cursor:pointer;
+	border: none;
+}
+.div_boton_enviar{
+	width:106px;
+	height:29px;
+	display:inline;
+	float:right;
+	margin:20px 110px 0 0;
+	padding:0;
+	background-image: url(../img/icon_enviar_b.gif);
+	cursor:pointer;
+	border: none;
+}
+.div_boton_enviar:hover{
+filter: alpha(opacity=65);
+	-moz-opacity: .65;
+	opacity: .65; 
+	-khtml-opacity: 0.5}

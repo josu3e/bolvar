@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenido_info{
+	width:585px;
+	height:auto;
+	display:inline;
+	float: left;
+	margin:0 0 30px 94px;
+	background-image: url(../img/fondo_info.gif);
+	background-position: top center;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #cccccc;
+	padding: 0;
+}
+#contenido_info h1{
+	font-size:20px;
+	font-weight:normal;
+	color:#FFFFFF;
+	margin: 12px 0 40px 0;
+}
+
+#contenido_info p{
+	font-size:12px;
+	margin:10px 65px 10px 65px;
+	text-align: justify;
+}
+#contenido_info form{
+	display:inline;
+	float:left;
+	margin:0 0 20px 50px;
+	width: 500px;
+	height: auto;
+}
+#contenido_info form .celda01{
+  display:inline;
+  float:left;
+  height:24px;
+  width:380px;
+}
+#contenido_info form .celda02{
+	width:380px;
+	height:55px;
+	margin: 0 0 10px 0;
+	display:inline;
+	float:left;
+}
+#contenido_info form .etiqueta{
+  color:#4C6D9D;
+  display:inline;
+  float:left;
+  font-size:12px;
+  font-weight:bold;
+  height:auto;
+  margin:0 0 5px;
+  width:400px;
+}
+#contenido_info form .etiqueta label{
+  float:left;
+  margin:10px 0;
+}
+#contenido_info .etiqueta p.msj{
+  font-size:16px;
+}
+#contenido_info form .etiqueta p.error{
+  color:#FF0000;
+  float:left;
+  font-weight:normal;
+  margin:5px 0;
+}
+#contenido_info form .boton{
+  background:url("../img/icon_enviar.gif") no-repeat scroll 50% 50% transparent;
+  border:medium none;
+  display:inline;
+  float:left;
+  height:25px;
+  margin:0 100px 0 0;
+  padding:0;
+	cursor: pointer;
+  width:73px;
+}
+#contenido_info form .boton:hover{
+  filter: alpha(opacity=65);
+	-moz-opacity: .65;
+	opacity: .65; 
+	-khtml-opacity: 0.5;
+	cursor: pointer;
+	border-bottom:1px #999999 solid;
+}
+#info_contact {
+  font-size:11px;
+  height:79px;
+  margin-top:20px;
+  position:absolute;
+  text-align:center;
+  top:460px;
+  width:306px;
+  z-index:1;
+}
+#info_contact strong{
+	font-size:14px;
+  font-weight:bold;
+}
+.bot_return{
+  width:149px;
+  height:53px;
+  float:left;
+  display:inline;
+  margin:0 0 0 520px;
+  padding:0;
+  background-image:url(../img/fodo_bot_return.gif);
+}
+
+.bot_return:hover{
+	filter: alpha(opacity=65);
+	-moz-opacity: .65;
+	opacity: .65; 
+	-khtml-opacity: 0.5;}
+	
+.imagen_info{
+	display:inline;
+	float: right;
+	width:293px;
+	height:290px;
+	margin:0 56px 0 0;
+	padding:0;
+	background-color: #00CCFF;
+}	
+.imagen_info img{
+	position:absolute;
+	margin:-29px 0 0 -15px;
+	border:none;
+}
+	
+.fondo_bot_cotiza{
+	width:294px;
+	height:124px;
+	float:left;
+	display:inline;
+	background-image:url(../img/fondo_cotiza_info.gif);
+	margin: 44px 0 0 0;
+}	
+
+.flotar_izquierda{
+	display:inline;
+	float:left;
+	margin:0;
+	border: none;
+}

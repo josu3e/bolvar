@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FFF;
+	margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: auto;
+	background-position:center;
+			
+}
+	
+.image{
+	width:960px;
+	height:609px;
+	margin:auto;
+	margin-top:1%;
+	
+	/*margin-top:20%;
+	margin-left:30%;*/
+	
+	}
+	
+
+
