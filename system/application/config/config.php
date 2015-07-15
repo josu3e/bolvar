@@ -12,7 +12,7 @@
 |
 */
 
-$config['base_url']	= "http://www.bolivarinternational.com/";
+$config['base_url']	= "http://local.bolivarinternational.com/";
 
 
 /*

@@ -34,8 +34,22 @@
 | the active record class
 */
 
-$active_group = "default";
+//$active_group = "default";
+$active_group = "localhost";
 $active_record = TRUE;
+
+$db['localhost']['hostname'] = "localhost";
+$db['localhost']['username'] = "root";
+$db['localhost']['password'] = "";
+$db['localhost']['database'] = "bolivar_local";
+$db['localhost']['dbdriver'] = "mysql";
+$db['localhost']['dbprefix'] = "";
+$db['localhost']['pconnect'] = TRUE;
+$db['localhost']['db_debug'] = TRUE;
+$db['localhost']['cache_on'] = FALSE;
+$db['localhost']['cachedir'] = "";
+$db['localhost']['char_set'] = "latin1";
+$db['localhost']['dbcollat'] = "latin1_spanish_ci";
 
 $db['default']['hostname'] = "localhost";
 $db['default']['username'] = "bolivar";
