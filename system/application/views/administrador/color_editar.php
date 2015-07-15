@@ -17,7 +17,7 @@
         <li class="active"><?php echo anchor('administrador/color/registrar', 'Registrar Color')?></li>
         <li><?php echo anchor('administrador/color', 'Listar Colores')?></li>
       </ul>
-      <p class="information">La pestaña de "colores" te permite crear, editar o elimnar los colores.</p>
+      <p class="information">La pesta&ntilde;a de "colores" te permite crear, editar o elimnar los colores.</p>
     </div>
     <div class="content">
       <h1>Registro de colores</h1>
@@ -31,7 +31,7 @@
           <tr><td>
             <div style="float:none;display:block;"><?php echo form_label('<span>Imagen actual:</span>').img($colo)?></div>
             <div style="float:none;display:block;margin-top:5px;"><?php echo form_label('Imagen:', $imagen['id']).form_upload($imagen).form_error($imagen['name']);?>
-            <p><b>Nota: </b>Considerar Tamaño fijo (26x26 pixeles)</p>
+            <p><b>Nota: </b>Considerar Tama&ntilde;o fijo (26x26 pixeles)</p>
           </td></tr>
 				</tbody>
         <tfoot>

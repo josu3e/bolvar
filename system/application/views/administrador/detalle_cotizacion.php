@@ -14,7 +14,7 @@
      
         <li class="active"><?php echo anchor('administrador/cotizacion', 'Listar Cotizaciones')?></li>
       </ul>
-      <p class="information">La pestaña de "Detalle Cotizaciones" te permite revisar las cotizaciones.</p>
+      <p class="information">La pesta&ntilde;a de "Detalle Cotizaciones" te permite revisar las cotizaciones.</p>
     </div>
     <div class="content">
       <h1>Bienvenido al Panel de Administracion</h1>

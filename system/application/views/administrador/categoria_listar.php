@@ -13,7 +13,7 @@
         <li><?php echo anchor('administrador/categoria/registrar', 'Registrar Categoria')?></li>
         <li class="active"><?php echo anchor('administrador/categoria/listar', 'Listar categorias')?></li>
       </ul>
-      <p class="information">La pestaña de "nuestras categorias" te permite crear, editar o elimnar las fotos de las categoria.</p>
+      <p class="information">La pesta&ntilde;a de "nuestras categorias" te permite crear, editar o elimnar las fotos de las categoria.</p>
     </div>
     <div class="content">
       <h1>Listado de categorias</h1>

@@ -14,7 +14,7 @@
 				<li <?php echo (isset($cat))?'':'class="active"'?>><?php echo anchor('administrador/cliente/load_registrar', 'Registrar Cliente')?></li>
         <?php //echo (isset($cat))?$opciones:''?>
       </ul>
-      <p class="information">La pestaña de "Clientes" te permite crear, editar o elimnar clientes.</p>
+      <p class="information">La pesta&ntilde;a de "Clientes" te permite crear, editar o elimnar clientes.</p>
     </div>
     <div class="content">
       <h1>Registro de Clientes</h1>

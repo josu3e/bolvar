@@ -13,7 +13,7 @@
         <li><?php echo anchor('administrador/articulo/load_registrar', 'Registrar Articulo')?></li>
         <li class="active"><?php echo anchor('administrador/articulo/listar_articulos', 'Listar Articulos')?></li>
       </ul>
-      <p class="information">La pestaña de "nuestros archivos" te permite crear, editar o elimnar las fotos de los archivos.</p>
+      <p class="information">La pesta&ntilde;a de "nuestros archivos" te permite crear, editar o elimnar las fotos de los archivos.</p>
     </div>
     <div class="content">
       <h1>Listado de Articulos</h1>

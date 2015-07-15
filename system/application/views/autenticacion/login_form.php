@@ -43,7 +43,7 @@ $confirmation_code = array(
     <?php if ($show_captcha): ?>
       <fieldset>
       <p class="mensaje">Enter the code exactly as it appears. There is no zero.</p>
-      <p><?php echo form_label('Código');?>
+      <p><?php echo form_label('C&oacute;digo');?>
       <?php echo $this->dx_auth->get_captcha_image(); ?></p><br/>
       <p><?php echo form_label('Ingresar', $confirmation_code['id']);?>
       <?php echo form_input($confirmation_code);?></p>

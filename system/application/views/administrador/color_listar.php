@@ -13,7 +13,7 @@
         <li><?php echo anchor('administrador/color/registrar', 'Registrar Color')?></li>
         <li class="active"><?php echo anchor('administrador/color', 'Listar Colores')?></li>
       </ul>
-      <p class="information">La pestaña de "Colores" te permite crear, editar o elimnar las fotos de los colores.</p>
+      <p class="information">La pesta&ntilde;a de "Colores" te permite crear, editar o elimnar las fotos de los colores.</p>
     </div>
     <div class="content">
       <h1>Listado de Colores</h1>

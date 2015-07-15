@@ -16,7 +16,7 @@
         <li class="active"><?php echo anchor('administrador/categoria/editar/'.$categoria['cat_id'], 'Editar categoria')?></li>
         <li><?php echo anchor('administrador/categoria/eliminar/'.$categoria['cat_id'], 'Eliminar categoria', 'class="confirm" title="Desea elimnar este categoria?"')?></li>
       </ul>
-      <p class="information">La pestaña de "categorias" te permite crear, editar o elimnar los categorias.</p>
+      <p class="information">La pesta&ntilde;a de "categorias" te permite crear, editar o elimnar los categorias.</p>
     </div>
     <div class="content">
       <h1>Registro de categorias</h1>

@@ -14,7 +14,7 @@
         <li class="active"><?php echo anchor('administrador/cliente', 'Listar Clientes')?></li>
 				<li><?php echo anchor('administrador/cliente/load_registrar', 'Registrar Clientes')?></li>
       </ul>
-      <p class="information">La pestaña de "Detalle de Clientes" te permite eliminar o editar un cliente.</p>
+      <p class="information">La pesta&ntilde;a de "Detalle de Clientes" te permite eliminar o editar un cliente.</p>
     </div>
     <div class="content">
       <h1>Listado de Clientes</h1>

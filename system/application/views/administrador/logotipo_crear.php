@@ -9,7 +9,7 @@
       </ul>
     </div>
     <div id="content_menu">
-      <p class="information">La pestaña de "Logotipos" te permite crear, editar o elimnar los logotipos.</p>
+      <p class="information">La pesta&ntilde;a de "Logotipos" te permite crear, editar o elimnar los logotipos.</p>
     </div>
     <div class="content">
       <h1>Crear/Editar Logotipo</h1>
@@ -58,7 +58,7 @@
             <?php echo form_error($imagen['name'])?>
             </div>
             <div>
-              <p style="margin-left:130px;">Tamaño máximo (143x52 pixeles)<br/>El logotipo debe estar en formato de imagen .PNG con transparencia</p>
+              <p style="margin-left:130px;">Tama&ntilde;o m&aacute;ximo (143x52 pixeles)<br/>El logotipo debe estar en formato de imagen .PNG con transparencia</p>
             </div>
           </td></tr>          
 					
@@ -79,7 +79,7 @@
             <?php echo form_error($imagen2['name'])?>
             </div>
             <div>
-              <p style="margin-left:130px;">Tamaño máximo (143x52 pixeles)<br/>El logotipo debe estar en formato de imagen .PNG con transparencia</p>
+              <p style="margin-left:130px;">Tama&ntilde;o m&aacute;ximo (143x52 pixeles)<br/>El logotipo debe estar en formato de imagen .PNG con transparencia</p>
             </div>
           </td></tr>
 					

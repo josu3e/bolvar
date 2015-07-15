@@ -14,7 +14,7 @@
         <li class="active"><?php echo anchor('administrador/articulo/registrar', 'Registrar Articulo')?></li>
         <li><?php echo anchor('administrador/articulo', 'Listar Articulos')?></li>
       </ul>
-      <p class="information">La pestaña de "Articulos" te permite crear, editar o elimnar los articulos.</p>
+      <p class="information">La pesta&ntilde;a de "Articulos" te permite crear, editar o elimnar los articulos.</p>
     </div>
     <div class="content">
       <h1>Registro de Articulos</h1>

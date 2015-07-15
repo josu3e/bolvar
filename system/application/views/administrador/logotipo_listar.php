@@ -13,7 +13,7 @@
         <li><?php echo anchor('administrador/logotipo/load_registrar', 'Registrar Logotipos')?></li>
         <li class="active"><?php echo anchor('administrador/logotipo/listar_logotipos', 'Listar Logotipos')?></li>
       </ul>
-      <p class="information">La pestaña de "nuestros archivos" te permite crear, editar o elimnar las fotos de los archivos.</p>
+      <p class="information">La pesta&ntilde;a de "nuestros archivos" te permite crear, editar o elimnar las fotos de los archivos.</p>
     </div>
     <div class="content">
       <h1>Listado de Logotipos</h1>

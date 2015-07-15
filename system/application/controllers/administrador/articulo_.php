@@ -41,7 +41,7 @@ class Articulo extends Controller {
 	function do_registrar()
 	{
     $val = $this->form_validation;
-    $val->set_rules('ar_descripcion', 'Código', 'trim|required|xss_clean');
+    $val->set_rules('ar_descripcion', 'C&oacute;digo', 'trim|required|xss_clean');
 
     if(!$val->run())
     {
@@ -99,7 +99,7 @@ class Articulo extends Controller {
   function do_update($id)
 	{
     $val = $this->form_validation;
-    $val->set_rules('ar_descripcion', 'Código', 'trim|required|xss_clean');
+    $val->set_rules('ar_descripcion', 'C&oacute;digo', 'trim|required|xss_clean');
 
     if(!$val->run())
     {

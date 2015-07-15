@@ -67,14 +67,14 @@ class articulos extends Controller
       else
       {
         $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
-        $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron artículos en esta categoría, intente en otra categoría.</p></div>';
+        $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categoría, intente en otra categoría.</p></div>';
         $data['contenido'] = $this->load->view('articulos/lapiceros', $cont, TRUE);
         $this->load->view('template_base', $data);
       }
 		}
 		else
 		{
-      $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron artículos en esta categoría, intente en otra categoría.</p></div>';
+      $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categoría, intente en otra categoría.</p></div>';
       $data['contenido'] = $this->load->view('articulos/lapiceros', $cont, TRUE);
       $this->load->view('template_base', $data);
 		}
@@ -119,7 +119,7 @@ class articulos extends Controller
       else
       {
         $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
-        $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron artículos en esta categoría, intente en otra categoría.</p></div>';
+        $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categoría, intente en otra categoría.</p></div>';
         $data['contenido'] = $this->load->view('articulos/gimmix', $cont, TRUE);
         $this->load->view('template_base', $data);
       }
@@ -127,7 +127,7 @@ class articulos extends Controller
 		else
 		{
       $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
-      $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron artículos en esta categoría, intente en otra categoría.</p></div>';
+      $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categoría, intente en otra categoría.</p></div>';
       $data['contenido'] = $this->load->view('articulos/gimmix', $cont, TRUE);
       $this->load->view('template_base', $data);
 		}

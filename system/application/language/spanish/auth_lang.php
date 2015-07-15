@@ -26,8 +26,8 @@ Cuenta %s
 Seguidamente debe ingresar su numero de operación del boucher de pago en el siguiente enlace:
 %s
  
-Por favor realice la activación de su cuenta en un máximo de %s horas, de lo contrario su
-registro será invalido y tendrá que volver a registrarse.
+Por favor realice la activación de su cuenta en un m&aacute;ximo de %s horas, de lo contrario su
+registro ser&aacute; invalido y tendrá que volver a registrarse.
  
 Una ves activada su cuenta, usted puede usar su usuario o email para acceder y actualizar su anuncio las veces que sea necesario.
  
@@ -42,10 +42,10 @@ El equipo de %s";
 $lang['auth_activate_content_free'] = "Bienvenido a %s,
  
 Para finalizar el registro de su Empresa confirme su dirección de correo electrónico bajo este enlace
-en las siguientes %s horas, de lo contrario su registro será invalido y tendrá que volver a registrarse:
+en las siguientes %s horas, de lo contrario su registro ser&aacute; invalido y tendrá que volver a registrarse:
 %s
 
-Todos los datos suministrados por las Empresas serán revisados para su posterior activación.
+Todos los datos suministrados por las Empresas ser&aacute;n revisados para su posterior activación.
 Para cualquier consulta sobre nuestro servicio, nos puede contactar via mail a %s
  
 Una ves activada su cuenta, usted puede usar su usuario o email para acceder a su panel de control y actualizar su anuncio las veces que sea necesario.

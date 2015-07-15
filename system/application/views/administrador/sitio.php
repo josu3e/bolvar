@@ -13,7 +13,7 @@
         <li class="active"><?php echo anchor('administrador/sitio', 'Información de la web')?></li>
        
       </ul>
-      <p class="information">La pestaña de "Opciones de mi Web" te permite editar tu web</p>
+      <p class="information">La pesta&ntilde;a de "Opciones de mi Web" te permite editar tu web</p>
     </div>
     <div class="content">
       <h1>Opciones de mi Web</h1>
