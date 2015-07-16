@@ -13,8 +13,8 @@
             <div id="header">
                 <div id="site_name"><img src="<?php echo base_url(); ?>img/main_logo.jpg" border="" alt="" width="233" height="50"/></div>
                 <div id="user_menu">
-                    <p>Has iniciado sessi&oacute;n como <strong>administrador</strong> - <?php echo anchor('autenticacion/logout_admin', utf8_encode('Cerrar Sesión')); ?></p>
-                    <p><?php echo anchor(base_url(), utf8_encode('Página de incio'), 'id="bu"') ?></p>
+                    <p>Has iniciado sessi&oacute;n como <strong>administrador</strong> - <?php echo anchor('autenticacion/logout_admin', 'Cerrar Sesi&oacute;n'); ?></p>
+                    <p><?php echo anchor(base_url(), 'P&aacute;gina de incio', 'id="bu"') ?></p>
                 </div>
             </div>
             <?php echo (isset($contenido)) ? $contenido : ''; ?>

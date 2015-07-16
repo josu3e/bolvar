@@ -10,7 +10,7 @@
 <body>
   <div id="container">
     <div id="header">
-      <div id="site_name"><img src="<?php echo base_url();?>img/proveedoresperu.png" border="" alt="" width="233" height="50"/></div>
+      <div id="site_name"><img src="<?php echo base_url(); ?>img/main_logo.jpg" border="" alt="" width="233" height="50"/></div>
       <div id="user_menu">
         <?php echo anchor('autenticacion/login', 'Acceder')?>
       </div>
