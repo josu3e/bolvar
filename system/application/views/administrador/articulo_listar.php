@@ -38,13 +38,13 @@
                     <th>Total archivos: <?php echo (isset($total)) ? $total : ''; ?></th>
                 </tr>
                 <tr>
-                    <td class="c"><?php echo form_input($id) ?></td>
-                    <td class="c"><?php echo form_input($orden) ?></td>
-                    <td><?php echo form_input($codigo) ?></td>
-                    <td><?php echo form_dropdown('tipo', $tipo, (isset($filtro['tipo'])) ? $filtro['tipo'] : '', 'id="tipo"') ?></td>
-                    <td><?php echo form_dropdown('categoria', $categoria, (isset($filtro['categoria'])) ? $filtro['categoria'] : '', 'id="categoria"') ?></td>
-                    <td><?php echo form_dropdown('color', $color, (isset($filtro['color'])) ? $filtro['color'] : '', 'id="color"') ?></td>
-                    <td colspan="3" width="165"><?php echo form_submit('filtrar', utf8_encode('Filtrar artículos')) ?></td>
+                    <td class="c"><?php echo form_input($id); ?></td>
+                    <td class="c"><?php echo form_input($orden); ?></td>
+                    <td><?php echo form_input($codigo); ?></td>
+                    <td><?php echo form_dropdown('tipo', $tipo, (isset($filtro['tipo'])) ? $filtro['tipo'] : '', 'id="tipo"'); ?></td>
+                    <td><?php echo form_dropdown('categoria', $categoria, (isset($filtro['categoria'])) ? $filtro['categoria'] : '', 'id="categoria"'); ?></td>
+                    <td><?php echo form_dropdown('color', $color, (isset($filtro['color'])) ? $filtro['color'] : '', 'id="color"'); ?></td>
+                    <td colspan="3" width="165"><?php echo form_submit('filtrar', 'Filtrar articulos'); ?></td>
                 </tr>
             </thead>
             <tbody>

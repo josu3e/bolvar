@@ -52,12 +52,11 @@ class articulos_model extends Model {
                     $logo = ($tipo == 1) ? '<div class="top">' . img($img) . '</div>' : '';
                     $acc = array_key_exists($r->art_id . '_' . $log, $cart) ? 'del_cart' : 'add_cart';
                     $pic = array('src' => 'img/articulos/' . $t->cat_key . '/' . $r->art_imagen, 'alt' => $r->art_codigo);
-                    $rs .= '
-          <div class="renglon_lapcero">
-            <div class="img">' . $logo . img($pic) . '</div>
-            <div class="codec"><span>ID: ' . $r->art_codigo . '</span></div>
-            <div class="ico_poner_quitar">' . anchor('#' . $acc, ' ', 'id="id_' . $r->art_id . '_' . $log . '_' . $r->art_negativo . '_' . $r->art_codigo . '" class="' . $acc . ' ' . $acc . '_img"') . '</div>
-          </div>';
+                    $rs .= '<div class="renglon_lapcero">
+                                <div class="img">' . $logo . img($pic) . '</div>
+                                <div class="codec"><span>ID: ' . $r->art_codigo . '</span></div>
+                                <div class="ico_poner_quitar">' . anchor('#' . $acc, ' ', 'id="id_' . $r->art_id . '_' . $log . '_' . $r->art_negativo . '_' . $r->art_codigo . '" class="' . $acc . ' ' . $acc . '_img"') . '</div>
+                            </div>';
                     // <div class="img">'.$logo.anchor(base_url().'img/articulos/'.$t->cat_key.'/'.$r->art_imagen2, img($pic), 'rel="sexylightbox"').'</div>
                 }
             } else {
@@ -65,12 +64,11 @@ class articulos_model extends Model {
                     $t = $this->_get_cat($r->art_tar_id);
                     $acc = array_key_exists($r->art_id . '_' . $log, $cart) ? 'del_cart' : 'add_cart';
                     $pic = array('src' => 'img/articulos/' . $t->cat_key . '/' . $r->art_imagen, 'alt' => $r->art_codigo);
-                    $rs .= '
-          <div class="renglon_lapcero">
-            <div class="img">' . img($pic) . '</div>
-            <div class="codec"><span>ID: ' . $r->art_codigo . '</span></div>
-            <div class="ico_poner_quitar">' . anchor('#' . $acc, ' ', 'id="id_' . $r->art_id . '_' . $log . '_' . $r->art_negativo . '_' . $r->art_codigo . '" class="' . $acc . ' ' . $acc . '_img"') . '</div>
-          </div>';
+                    $rs .= '<div class="renglon_lapcero">
+                                <div class="img">' . img($pic) . '</div>
+                                <div class="codec"><span>ID: ' . $r->art_codigo . '</span></div>
+                                <div class="ico_poner_quitar">' . anchor('#' . $acc, ' ', 'id="id_' . $r->art_id . '_' . $log . '_' . $r->art_negativo . '_' . $r->art_codigo . '" class="' . $acc . ' ' . $acc . '_img"') . '</div>
+                            </div>';
                 }
             }
         }

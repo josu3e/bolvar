@@ -124,7 +124,7 @@ class articulos extends Controller {
     function pharmax() {
         $uri = $this->uri;
         $tipo = self::TIPO_PHARMAX;
-        $data['title'] = 'Bolivar International - Pharmax';
+        $data['title'] = 'Bolivar International - Pharma';
         $data['extra_css'] = link_tag('css/_cotizar.css') . "\n";
 
         // Valores por defecto

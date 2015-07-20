@@ -35,7 +35,7 @@
         <?php
         echo anchor('articulos/lapiceros', '<span>Lapiceros</span>', 'style="margin-left:115px;" class="menu_activado"') . "\n";
         echo anchor('articulos/gimmix', '<span>Gimmix</span>', 'style="margin-left:245px;"') . "\n";
-        echo anchor('articulos/pharmax', '<span>Pharmax</span>', 'style="margin-left:378px;"') . "\n";
+        echo anchor('articulos/pharmax', '<span>Pharma</span>', 'style="margin-left:378px;"') . "\n";
         ?><div id="cotizar"><?php echo anchor('articulos/cotizacion', ' ') ?></div>
     </div>
     <?php
