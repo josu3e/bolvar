@@ -4,7 +4,7 @@ class articulos extends Controller {
 
     const TIPO_LAPICERO = 1;
     const TIPO_GIMMIX = 2;
-    const TIPO_PHARMAX = 61;
+    const TIPO_PHARMA = 61;
 
     function __construct() {
         parent::Controller();
@@ -121,10 +121,10 @@ class articulos extends Controller {
         }
     }
 
-    function pharmax() {
+    function pharma() {
         $uri = $this->uri;
-        $tipo = self::TIPO_PHARMAX;
-        $data['title'] = 'Bolivar International - Pharmax';
+        $tipo = self::TIPO_PHARMA;
+        $data['title'] = 'Bolivar International - Pharma';
         $data['extra_css'] = link_tag('css/_cotizar.css') . "\n";
 
         // Valores por defecto
@@ -135,7 +135,7 @@ class articulos extends Controller {
             $log = 'gimm';
             $cart = $this->session->userdata('cart');
 
-            $config['base_url'] = site_url('articulos/pharmax/' . $cat);
+            $config['base_url'] = site_url('articulos/pharma/' . $cat);
             $config['total_rows'] = $this->articulos->count_all_articulos($tipo, $cat, $col);
             $config['per_page'] = '100';
             $config['uri_segment'] = '4';
@@ -151,18 +151,18 @@ class articulos extends Controller {
                 // $cont['parameters'] = 'Cat: '.$cat.' Col: '.$col.' Log:'.$log;
 
                 $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
-                $data['contenido'] = $this->load->view('articulos/pharmax', $cont, TRUE);
+                $data['contenido'] = $this->load->view('articulos/pharma', $cont, TRUE);
                 $this->load->view('template_base', $data);
             } else {
                 $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
                 $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categor&iacute;a, intente en otra categor&iacute;a.</p></div>';
-                $data['contenido'] = $this->load->view('articulos/pharmax', $cont, TRUE);
+                $data['contenido'] = $this->load->view('articulos/pharma', $cont, TRUE);
                 $this->load->view('template_base', $data);
             }
         } else {
             $cont['categorias'] = $this->articulos->get_categorias($tipo, $cat);
             $cont['articulos'] = '<div class="nada"><img src="/img/ico_dreieck.png" height="63" width="66"><p style="font-size:16px;margin:25px 75px;">No se hallaron art&iacute;culos en esta categor&iacute;a, intente en otra categor&iacute;a.</p></div>';
-            $data['contenido'] = $this->load->view('articulos/pharmax', $cont, TRUE);
+            $data['contenido'] = $this->load->view('articulos/pharma', $cont, TRUE);
             $this->load->view('template_base', $data);
         }
     }
@@ -205,7 +205,7 @@ class articulos extends Controller {
         $articulos = '';
         foreach ($cart as $ar) {
             $a = $this->articulos->get_articulo($ar[0]);
-            $carp = $a['art_tar_id'] == self::TIPO_LAPICERO ? 'lapiceros' : ($a['art_tar_id'] == self::TIPO_GIMMIX ? 'gimmix' : 'pharmax');
+            $carp = $a['art_tar_id'] == self::TIPO_LAPICERO ? 'lapiceros' : ($a['art_tar_id'] == self::TIPO_GIMMIX ? 'gimmix' : 'pharma');
             $art = array('src' => 'img/articulos/' . $carp . '/' . $a['art_imagen'], 'width' => '200', 'alt' => '');
             $articulos .= '<tr>
                                 <td>' . $ar[4] . '</td>

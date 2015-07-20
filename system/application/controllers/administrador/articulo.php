@@ -4,7 +4,7 @@ class Articulo extends Controller {
 
     const TIPO_LAPICERO = 1;
     const TIPO_GIMMIX = 2;
-    const TIPO_PHARMAX = 61;
+    const TIPO_PHARMA = 61;
 
     function __construct() {
         parent::Controller();
@@ -103,7 +103,7 @@ class Articulo extends Controller {
                 'art_col_id' => $val->set_value('color'),
                 'art_negativo' => $val->set_value('negativo'));
             $data['art_col_id'] = $val->set_value('tipo') == self::TIPO_LAPICERO ? $val->set_value('color') : 1;
-            $img = $val->set_value('tipo') == self::TIPO_LAPICERO ? $this->upload_lapicero('imagen') : (($val->set_value('tipo') == self::TIPO_GIMMIX) ? $this->upload_gimmix('imagen') : $this->upload_pharmax('imagen'));
+            $img = $val->set_value('tipo') == self::TIPO_LAPICERO ? $this->upload_lapicero('imagen') : (($val->set_value('tipo') == self::TIPO_GIMMIX) ? $this->upload_gimmix('imagen') : $this->upload_pharma('imagen'));
             $data['art_imagen'] = $img['file_name'];
 
             $this->articulo->insert_file($data);
@@ -141,7 +141,7 @@ class Articulo extends Controller {
                 'art_col_id' => $val->set_value('color'),
                 'art_negativo' => $val->set_value('negativo'));
             $data['art_col_id'] = $val->set_value('tipo') == self::TIPO_LAPICERO ? $val->set_value('color') : 1;
-            $img = $val->set_value('tipo') == self::TIPO_LAPICERO ? $this->upload_lapicero('imagen') : (($val->set_value('tipo') == self::TIPO_GIMMIX) ? $this->upload_gimmix('imagen') : $this->upload_pharmax('imagen'));
+            $img = $val->set_value('tipo') == self::TIPO_LAPICERO ? $this->upload_lapicero('imagen') : (($val->set_value('tipo') == self::TIPO_GIMMIX) ? $this->upload_gimmix('imagen') : $this->upload_pharma('imagen'));
             if ($img)
                 $data['art_imagen'] = $img['file_name'];
 
@@ -260,9 +260,9 @@ class Articulo extends Controller {
         return FALSE;
     }
 
-    function upload_pharmax($field_name) {
+    function upload_pharma($field_name) {
         $this->load->library('upload');
-        $conf['upload_path'] = './img/articulos/pharmax/';
+        $conf['upload_path'] = './img/articulos/pharma/';
         $conf['allowed_types'] = 'jpg|png|gif';
         $conf['max_size'] = '1000';
         $conf['max_width'] = '1024';

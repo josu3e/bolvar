@@ -5,7 +5,7 @@ $codigo = array('name' => 'codigo', 'id' => 'codigo', 'size' => '20', 'value' =>
 $imagen = array('name' => 'imagen', 'id' => 'imagen');
 $negativo = array('name' => 'negativo', 'id' => 'negativo', 'value' => 1, 'checked' => $articulo['art_negativo'] == 1 ? TRUE : FALSE);
 
-$carp = $articulo['art_tar_id'] == 1 ? 'lapiceros' : ($articulo['art_tar_id'] == 2 ? 'gimmix' : 'pharmax');
+$carp = $articulo['art_tar_id'] == 1 ? 'lapiceros' : ($articulo['art_tar_id'] == 2 ? 'gimmix' : 'pharma');
 $arti = array('src' => 'img/articulos/' . $carp . '/' . $articulo['art_imagen'], 'alt' => '', 'width' => '375', 'height' => '110');
 ?>
 <div id="menu" class="">
