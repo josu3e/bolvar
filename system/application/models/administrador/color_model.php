@@ -29,7 +29,7 @@ class Color_model extends Model {
                 $c = array('src' => 'img/colores/' . $r->col_imagen, 'alt' => '');
                 $rs .= '<tr>
             <td>' . $r->col_id . '</td>
-            <td>' . utf8_encode($r->col_nombre) . '</td>
+            <td>' . ($r->col_nombre) . '</td>
             <td>' . img($c) . '</td>
             <td>' . anchor('administrador/color/editar/' . $r->col_id, 'editar') . '</td>
             <td>' . anchor('administrador/color/eliminar/' . $r->col_id, 'eliminar', 'class="confirm" title="¿Desea elimminar este color?"') . '</td>

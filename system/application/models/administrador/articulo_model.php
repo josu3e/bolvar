@@ -70,9 +70,9 @@ class Articulo_model extends Model {
           <td class="c">' . $r->art_id . '</td>
           <td class="c">' . $r->art_orden . '</td>
           <td>' . $r->art_codigo . '</td>
-          <td>' . utf8_encode($t->cat_nombre) . '</td>
-          <td>' . utf8_encode($c->cat_nombre) . '</td>
-          <td>' . utf8_encode($s->col_nombre) . '</td>
+          <td>' . $t->cat_nombre . '</td>
+          <td>' . $c->cat_nombre . '</td>
+          <td>' . $s->col_nombre . '</td>
           <td>
             ' . anchor('administrador/articulo/editar/' . $r->art_id, 'editar') . ' | 
             ' . anchor('administrador/articulo/eliminar/' . $r->art_id, 'eliminar', 'class="confirm" title="Desea eliminar este articulo ?"') . ' | 
