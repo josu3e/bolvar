@@ -47,7 +47,7 @@ $arti = array('src' => 'img/articulos/' . $carp . '/' . $articulo['art_imagen'],
                         <div style="float:none;display:block;"><?php echo form_label('<span>Imagen actual:</span>') . img($arti) ?></div>
                         <div style="float:none;display:block;margin-top:5px;"><?php echo form_label('Imagen:', $imagen['id']) . form_upload($imagen) . form_error($imagen['name']); ?>
                             <p><b>Lapiceros: </b>Considerar Tama&ntilde;o fijo (613x149 pixeles)</p>
-                            <p><b>Gimmix: </b>Tama&ntilde;o m&aacute;ximo (268x195 pixeles)</p></div>
+                            <p><b>Gimmix y Pharma: </b>Tama&ntilde;o m&aacute;ximo (268x195 pixeles)</p></div>
                     </td></tr>
                 <tr><td>
                         <div><?php echo form_label('Negativo:', $negativo['id']) . form_checkbox($negativo) . form_error($negativo['name']) ?>
